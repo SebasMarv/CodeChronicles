@@ -1,4 +1,4 @@
-package one_introduccion;
+package A_introduccion;
 
 public class Introduc {
     public static void main(String[] args) {

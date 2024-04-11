@@ -1,4 +1,4 @@
-package three_operadores;
+package C_operadores;
 
 // //Realizar un programa que permita el intercarnbio de valores entre dos variables.
 // Por ejemplo: Si una variable numero vale 35, y una variable numer02 vale 20,

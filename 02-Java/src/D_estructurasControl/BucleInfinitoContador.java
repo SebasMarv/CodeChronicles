@@ -1,4 +1,4 @@
-package four_estructurasControl;
+package D_estructurasControl;
 
 public class BucleInfinitoContador {
     public static void main(String[] args) {

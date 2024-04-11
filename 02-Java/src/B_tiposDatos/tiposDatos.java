@@ -1,4 +1,4 @@
-package two_tiposDatos;
+package B_tiposDatos;
 
 public class tiposDatos {
     public static void main(String[] args) {
