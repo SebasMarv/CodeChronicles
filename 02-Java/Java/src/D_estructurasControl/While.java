@@ -1,7 +1,15 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package D_estructurasControl;
 
 import java.util.Scanner;
 
+/**
+ *
+ * @author USER
+ */
 public class While {
     public static void main(String[] args) {
         // While es la mas utilizada (ejecuta el bloque de codigo "mientras" que se cumpla la condicion)
@@ -30,4 +38,4 @@ public class While {
             System.out.println("No quizo el bucle");
         }
     }
-}
+}   

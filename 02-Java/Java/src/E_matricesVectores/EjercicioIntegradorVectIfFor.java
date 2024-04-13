@@ -1,11 +1,15 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package E_matricesVectores;
 
 import java.util.Scanner;
 
-/* Realizar un programa que permita cargar 15 números en un vector. Una vez
-cargados, se necesita que el programa cuente e informe por pantalla cuántas
-veces se cargó el número 3*/
-
+/**
+ *
+ * @author USER
+ */
 public class EjercicioIntegradorVectIfFor {
     public static void main(String[] args) {
 

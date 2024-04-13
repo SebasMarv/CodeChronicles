@@ -1,11 +1,13 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package C_operadores;
 
-// //Realizar un programa que permita el intercarnbio de valores entre dos variables.
-// Por ejemplo: Si una variable numero vale 35, y una variable numer02 vale 20,
-// realizar las acciones necesarias para que numero pase a valer 20 y numer02
-// ase a valer 35. Una vez realizado el cambio mostrar
-// eI resultado por pantalla.l
-
+/**
+ *
+ * @author USER
+ */
 public class Ejercicio {
     public static void main(String[] args) {
         
@@ -21,6 +23,5 @@ public class Ejercicio {
         num2 = auxiliar;
         
         System.out.println("Despues|" + "num1: " + num1 + " - num2: " + num2);
-    }
+    }   
 }
-// Intercambiar valores entre variables
