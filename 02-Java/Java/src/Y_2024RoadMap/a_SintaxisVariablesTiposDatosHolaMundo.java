@@ -17,8 +17,8 @@ package Y_2024RoadMap;
  *   en el lenguaje (en una línea, varias...). ☑️
  * - Crea una variable (y una constante si el lenguaje lo soporta). ☑️
  * - Crea variables representando todos los tipos de datos primitivos
- *   del lenguaje (cadenas de texto, enteros, booleanos...).
- * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
+ *   del lenguaje (cadenas de texto, enteros, booleanos...). ☑️
+ * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!" ☑️ 
  *
  * ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
  * debemos comenzar por el principio.
@@ -36,8 +36,21 @@ public class a_SintaxisVariablesTiposDatosHolaMundo {
         int variable = 2;
         
         // Constante
-        final int CONSTANTE = 3;
+        final int constante = 3;
         
         // Declaración de variables primitivas del lenguaje JAVA
+        int entero = 1;
+        double real = 1.0;
+        String palabra = "palabra";
+        boolean desicion = false;
+        char caracter = 'a';
+        byte valorbyte = 127;
+        short valorShort = 12345;
+        long valorLong = 87383473748374L;
+        float valorFloat = 3.123F;
+        
+        // Imprimir !Hola (JAVA)¡
+        System.out.println("!Hola Java¡");
+        System.out.println(variable+constante+entero+real+palabra+desicion+caracter+valorbyte+valorShort+valorLong+valorFloat);
     }
 }
