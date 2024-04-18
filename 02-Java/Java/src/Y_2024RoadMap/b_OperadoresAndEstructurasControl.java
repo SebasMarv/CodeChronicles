@@ -18,5 +18,16 @@ package Y_2024RoadMap;
  * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
  */
 public class b_OperadoresAndEstructurasControl {
-    
+    public static void main(String[] args) {
+        int cont = 10;
+        
+        while (cont <= 55) {            
+            if (cont%2 == 0) {
+                if (cont != 16 && cont%3 != 0) {
+                    System.out.println("Numero: "+cont);
+                }
+            }
+            cont++;
+        }
+    }
 }
