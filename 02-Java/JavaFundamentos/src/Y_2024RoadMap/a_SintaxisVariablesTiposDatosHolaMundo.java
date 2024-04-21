@@ -33,7 +33,7 @@ public class a_SintaxisVariablesTiposDatosHolaMundo {
         */
         
         // Variable
-        int variable = 2;
+        int variable = 4;
         
         // Constante
         final int constante = 3;
