@@ -51,5 +51,7 @@ public class c_IngresoPalabrasCentinela {
 //                System.out.println("Se termina el proceso");
 //            }
 //        }
+        
+        input.close();
     }
 }

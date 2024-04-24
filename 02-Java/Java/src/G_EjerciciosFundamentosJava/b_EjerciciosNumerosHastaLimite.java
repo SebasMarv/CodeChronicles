@@ -39,5 +39,7 @@ public class b_EjerciciosNumerosHastaLimite {
         }
         System.out.println("-----------------------------");
         System.out.println("Se termino de iterar desde 1 hasta el "+limit);
+
+        input.close();
     }
 }

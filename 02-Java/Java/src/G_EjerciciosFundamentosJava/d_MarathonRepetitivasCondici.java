@@ -22,17 +22,19 @@ public class d_MarathonRepetitivasCondici {
     // Fin del ciclo
     // 
     public static void main(String[] args) {
-        int dni=0, edad;
-        String nombre="", categoria = "";
+        int edad;
+        String nombre, categoria = "", dni;
         
-        while (dni == 0 || nombre == "fin") {            
-            Scanner input = new Scanner(System.in);
-            System.out.println("Ingrese su dni: ");
-            dni = input.nextInt();
-            System.out.println("Ingrese su nombre: ");
-            nombre = input.next();
-            System.out.println("Ingrese su edad: ");
-            edad = input.nextInt();
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Ingrese su dni: ");
+        dni = input.next();
+        System.out.println("Ingrese su nombre: ");
+        nombre = input.next();
+        System.out.println("Ingrese su edad: ");
+        edad = input.nextInt();
+        
+        while ((!dni.equals("0")) && (!nombre.equalsIgnoreCase("fin"))) {            
             
             if (edad >= 6 && edad <=10) {
                 categoria = "Menores A";
@@ -51,6 +53,15 @@ public class d_MarathonRepetitivasCondici {
             System.out.println("Su categoria es (" + categoria + 
                     ") con los siguientes datos: \nDNI: "+ dni +
                     " | EDAD: "+ edad + " | NOMBRE: "+ nombre);
+            
+            System.out.println("Ingrese su dni: ");
+            dni = input.next();
+            System.out.println("Ingrese su nombre: ");
+            nombre = input.next();
+            System.out.println("Ingrese su edad: ");
+            edad = input.nextInt();
         }
+        
+        input.close();
     }
 }
