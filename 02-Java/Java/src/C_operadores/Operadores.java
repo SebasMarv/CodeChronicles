@@ -101,6 +101,6 @@ public class Operadores {
         String mensaje = 10 > 90 ? "Es mayor" : "Es menor";
         System.out.println(mensaje);
 
-        String mensajee = mensaje.concat(" que el otro", "hoal");
+        String mensajee = mensaje.concat(" que el otro");
     }
 }
